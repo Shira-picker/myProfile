@@ -1,0 +1,191 @@
+body {
+    direction: rtl;
+    background-image: url('../images/pexels-photo-545049.jpeg');
+}
+
+
+
+div#container {
+    width: 960px;
+    margin: 0 auto;
+    border:dashed 4px;
+    border-color:turquoise;
+
+    
+}
+#pic {
+    background-image: url('../images/28827714_10215974351534520_7735312494905545946_o (2).jpg');
+    background-position:center;
+    padding:130px;
+    margin: 130px;
+    height: 150px;
+    width: 150px;
+    border-radius: 70px;
+}
+
+
+
+
+nav {
+  
+    height: 55px;
+    font-weight: bold;
+    font-size:15pt;
+}
+
+    nav ul {
+        list-style: none;
+    }
+
+        nav ul li {
+            display: inline-block;
+            float: right;
+        }
+
+            nav ul li a {
+                display: block;
+                background-color: beige;
+                color: black;
+                width: 120px;
+                height: 30px;
+                padding-top: 10px;
+                text-decoration: none;
+                text-align: center;
+            }
+
+                nav ul li a:hover {
+                    background-color:deeppink;
+                }
+
+                nav ul li a:active {
+                    background-color: lightpink;
+                }
+
+
+
+
+
+h1 {
+    font-size: 60px;
+    background-position: center;
+    font-family: Calibri;
+    color: darkgreen;
+    text-align: center;
+    
+}
+
+
+h2 {
+    font-size: 45px;
+    background-position: center;
+    font-family: Calibri;
+    color: darkcyan;
+}
+h3 {
+    font-size: 25px;
+    text-align: center;
+    font-family: Calibri;
+    color: darkgreen;
+}
+
+
+
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: Calibri;
+    color: darkslateblue;
+    font-weight:bold;
+   
+}
+
+       h2{
+        font-family:Calibri;
+        font-size:50px;
+        color:forestgreen;
+        text-align:center;
+
+    }
+
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    margin-right:50px;
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+    .fa::after {
+ 
+    content: " ";
+    background: sandybrown;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.fa:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+
+
+
+.fa {
+    opacity: 0.7;
+}
+
+.fa-facebook{
+    background: #ffffff;
+    color: orange;
+  
+}
+
+
+
+.fa-google{
+    background: #ffffff;
+    color: orange;
+
+}
+div#fun ul li{
+   
+    margin-top:100px;
+    text-align:center;
+    font-family:Calibri;
+    font-size: 30px;
+
+}
+
+div#postcard{
+
+    margin-right:100px;
+}
+
+ div#song{
+     margin-right:150px;
+ }
